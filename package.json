@@ -1,0 +1,19 @@
+{
+  "name": "algorithims_problem_solving_patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hezaltin/algorithims_Problem_solving_patterns.git"
+  },
+  "author": "Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hezaltin/algorithims_Problem_solving_patterns/issues"
+  },
+  "homepage": "https://github.com/hezaltin/algorithims_Problem_solving_patterns#readme"
+}
