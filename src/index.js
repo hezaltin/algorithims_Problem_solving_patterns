@@ -5,6 +5,7 @@ import {sameFrequency} from './solving_patterns/frequency_counter/same_frequency
 import {isSubsequence} from './solving_patterns/multiple_pointer/IsSubSequence';
 import {averagePair} from './solving_patterns/multiple_pointer/averagePair';
 import {maxSubarraySum} from './solving_patterns/sliding_window/maxSubArraySum';
+import {countDown} from './solving_patterns/recursion/counDown';
 
 
 // logs
@@ -14,5 +15,6 @@ console.log('sameFrequency', sameFrequency(3589578,5879385));
 console.log('subSequence==>', isSubsequence('abc', 'acb'));
 console.log('averagePair==>', averagePair([1,2,3],2.5));
 console.log('maxSubarraySum',maxSubarraySum([-3,4,0,-2,6,-1],2));
+console.log('Recursion-countdown', countDown(3))
 
 document.getElementById('main').innerText = hello
