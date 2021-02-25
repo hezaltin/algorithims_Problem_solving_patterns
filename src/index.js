@@ -7,6 +7,7 @@ import {averagePair} from './solving_patterns/multiple_pointer/averagePair';
 import {maxSubarraySum} from './solving_patterns/sliding_window/maxSubArraySum';
 import {countDown} from './solving_patterns/recursion/counDown';
 import {factorial} from './solving_patterns/recursion/factorial'
+import {getOddNumbers} from './solving_patterns/recursion/getOddNumbers'
 
 
 // logs
@@ -18,5 +19,6 @@ console.log('averagePair==>', averagePair([1,2,3],2.5));
 console.log('maxSubarraySum',maxSubarraySum([-3,4,0,-2,6,-1],2));
 console.log('Recursion-countdown', countDown(3))
 console.log('Recursion-factorial', factorial(5))
+console.log('Recursion-getOddNumbers', getOddNumbers(5))
 
 document.getElementById('main').innerText = hello
