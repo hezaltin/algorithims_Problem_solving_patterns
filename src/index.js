@@ -8,6 +8,7 @@ import {maxSubarraySum} from './solving_patterns/sliding_window/maxSubArraySum';
 import {countDown} from './solving_patterns/recursion/counDown';
 import {factorial} from './solving_patterns/recursion/factorial'
 import {getOddNumbers} from './solving_patterns/recursion/getOddNumbers'
+import {power} from './solving_patterns/recursion/getPower'
 
 
 // logs
@@ -20,5 +21,6 @@ console.log('maxSubarraySum',maxSubarraySum([-3,4,0,-2,6,-1],2));
 console.log('Recursion-countdown', countDown(3))
 console.log('Recursion-factorial', factorial(5))
 console.log('Recursion-getOddNumbers', getOddNumbers(5))
+console.log('Recursion-getPower', power(2,4))
 
 document.getElementById('main').innerText = hello
