@@ -9,7 +9,7 @@ import {countDown} from './solving_patterns/recursion/counDown';
 import {factorial} from './solving_patterns/recursion/factorial'
 import {getOddNumbers} from './solving_patterns/recursion/getOddNumbers'
 import {power} from './solving_patterns/recursion/getPower'
-
+import {sumRange} from './solving_patterns/recursion/sumRange'
 
 // logs
 console.log('anagram', anagram('awesome','awesome'));
@@ -22,5 +22,8 @@ console.log('Recursion-countdown', countDown(3))
 console.log('Recursion-factorial', factorial(5))
 console.log('Recursion-getOddNumbers', getOddNumbers(5))
 console.log('Recursion-getPower', power(2,4))
+console.log('Recursion-sumRange', sumRange(4))
+
+
 
 document.getElementById('main').innerText = hello
