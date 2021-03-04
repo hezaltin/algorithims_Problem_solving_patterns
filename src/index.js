@@ -11,6 +11,8 @@ import {getOddNumbers} from './solving_patterns/recursion/getOddNumbers'
 import {power} from './solving_patterns/recursion/getPower'
 import {sumRange} from './solving_patterns/recursion/sumRange'
 
+import {bubbleSort} from './Sorting/bubbleSort'
+
 // logs
 console.log('anagram', anagram('awesome','awesome'));
 console.log('areThereDuplicatesMP', areThereDuplicatesMP("a","b","c","c"));
@@ -24,6 +26,6 @@ console.log('Recursion-getOddNumbers', getOddNumbers(5))
 console.log('Recursion-getPower', power(2,4))
 console.log('Recursion-sumRange', sumRange(4))
 
-
+console.log('bubbleSort reverse==>',bubbleSort([8,2,3,4,6,7,9]))
 
 document.getElementById('main').innerText = hello
